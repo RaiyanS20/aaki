@@ -8,19 +8,19 @@ const CONFIG = {
   scrolls: [
     {
       title: 'The Scroll of the Falls',
-      text: "Happy birthday, Aaki! 💧\n\nThis waterfall never stops, and neither does the way you make everyone around you feel at home. Thank you for being so warm, so kind, and so completely you.",
+      text: "Happy birthday, Aaki! 💧\n\nThey say a waterfall is one of the most peaceful sounds in the world. Whoever said that has never heard you laugh.\n\nYour laugh is my favourite sound, and I'd happily spend forever trying to hear it one more time.",
     },
     {
       title: 'The Scroll of the Golden Hour',
-      text: "Some views make the whole world go quiet for a second.\n\nYou're one of those. 🌅\n\nI hope this year is as soft and golden as this sunset, and that you get to slow down and enjoy every bit of it.",
+      text: "Some views make the whole world go quiet for a second. You're one of those. 🌅\n\nYou notice the little things. You listen, really listen, and you understand me even when I don't have the words.\n\nThank you for being so attentive and so patient with me. It means more than I ever say.",
     },
     {
       title: 'The Scroll of the Sakura',
-      text: "Cherry blossoms take their time, but when they bloom, everyone stops to look. 🌸\n\nHere's to a year where everything you've been waiting for finally blooms. You deserve all of it.",
+      text: "Cherry blossoms are cute. Very cute. 🌸\n\nBut I have to be honest: they still lose to your nose.\n\nYes, your nose. It is officially the cutest thing in this whole valley, and Twinkle agrees.",
     },
   ],
   rose: {
     title: 'The Gem Rose',
-    text: "Flowers fade, so I made you one that never will. 💎🌹\n\nHappy birthday, Aaki. Thank you for every laugh, every late-night talk, and every ordinary day you've made better just by being in it.",
+    text: "Flowers fade, so I made you one that never will. 💎🌹\n\nI love you, Aaki. I love your laugh, your cute nose, the way you pay attention, and the way you always understand.\n\nHappy birthday. I'm so lucky it's you.",
   },
 };
