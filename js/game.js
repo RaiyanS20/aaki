@@ -321,7 +321,7 @@
         break;
       }
       case 'X': takeRose(o); break;
-      case 'M': say(sys("There's a card inside the mailbox!"), sys('"Happy birthday! Keep an eye out for a small white cat with a star on its forehead." 🐾')); break;
+      case 'M': say(sys("There's a card inside the mailbox!"), sys('"Happy birthday! Keep an eye out for a fluffy grey cat with a white face." 🐾')); break;
       case 'H': say(her('Home sweet home.'), her('Adventure first... cake later! 🎂')); break;
       case 'S': say(...S.map.def.sign.map(sys)); break;
     }
@@ -764,9 +764,9 @@
       wrap.appendChild(b);
     });
   }
-  buildSwatches('sw-hijab', 'hijab'); buildSwatches('sw-dress', 'dress'); buildSwatches('sw-skin', 'skin');
-  $('nameIn').value = CONFIG.name;
+  buildSwatches('sw-hijab', 'hijab');
   $('title-name').textContent = CONFIG.name;
+  $('cc-name').textContent = CONFIG.name;
   document.title = CONFIG.name + "'s Birthday Adventure";
 
   const prev = $('preview').getContext('2d'), tprev = $('title-sprites').getContext('2d');
@@ -789,7 +789,6 @@
   });
   $('goBtn').addEventListener('click', () => {
     Sound.init(); Sound.sfx('chime');
-    const n = $('nameIn').value.trim(); if (n) CONFIG.name = n.slice(0, 16);
     $('custom').classList.add('hidden');
     $('hud').classList.remove('hidden');
     S.mode = 'transition';

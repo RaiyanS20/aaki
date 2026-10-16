@@ -185,3 +185,4 @@ body.touch #dialog { bottom: max(116px, env(safe-area-inset-bottom)); }
   #etitle { margin-top: 10px; }
   .ecard { padding: 14px; }
 }
+.cc-hi { margin: 0; font-size: 18px; }
